@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace YOUR-VERIFIED-DOMAIN with your deployed domain before submission. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-VERIFIED-DOMAIN/index.html</loc></url>
+  <url><loc>https://YOUR-VERIFIED-DOMAIN/about.html</loc></url>
+  <url><loc>https://YOUR-VERIFIED-DOMAIN/services.html</loc></url>
+  <url><loc>https://YOUR-VERIFIED-DOMAIN/enquiry.html</loc></url>
+  <url><loc>https://YOUR-VERIFIED-DOMAIN/contact.html</loc></url>
+</urlset>

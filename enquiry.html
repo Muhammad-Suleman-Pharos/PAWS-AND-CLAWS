@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Volunteer, sponsor or foster an animal with Paws &amp; Claws Animal Rescue." name="description"/>
+<title>Paws &amp; Claws | Volunteer &amp; Enquiry</title>
+<link href="css/style.css" rel="stylesheet"/>
+<meta content="#165f55" name="theme-color"/><meta content="index, follow" name="robots"/><script defer="" src="js/main.js"></script></head>
+<body><a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<div class="header-inner">
+<div class="brand">Paws &amp; Claws Animal Rescue</div>
+<button aria-controls="main-navigation" aria-expanded="false" class="menu-toggle" type="button">☰ Menu</button><nav aria-label="Main navigation" class="site-nav" id="main-navigation">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services &amp; Adoption</a></li>
+<li><a aria-current="page" href="enquiry.html">Enquiry / Volunteer</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main-content">
+<section class="feature-section photo-split"><img alt="Animal companion photographed outdoors" class="animal-photo" data-fallback="images/gallery-dog.svg" height="700" loading="lazy" src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=1000&amp;q=80" width="1000"/><div><h2>Help make a difference</h2><p>Use the form below to reach out. Submissions are processed when the site is deployed to Netlify with Forms enabled.</p></div></section><h1 class="page-title">Volunteer &amp; Sponsorship Enquiry</h1>
+<section aria-labelledby="enquiry-form-title" class="form-card">
+<h3 id="enquiry-form-title">Get Involved</h3>
+<form action="/thank-you.html" data-netlify="true" id="enquiry-form" method="POST" name="enquiry" novalidate="novalidate"><input name="form-name" type="hidden" value="enquiry"/>
+<div class="form-group">
+<label for="fullname">Full Name:</label>
+<input autocomplete="name" id="fullname" maxlength="80" minlength="2" name="fullname" required="" type="text"/><span aria-live="polite" class="field-error" id="fullname-error"></span>
+</div>
+<div class="form-group">
+<label for="email">Email Address:</label>
+<input autocomplete="email" id="email" minlength="2" name="email" required="" type="email"/><span aria-live="polite" class="field-error" id="email-error"></span>
+</div>
+<div class="form-group">
+<label for="enquiry-type">Interest Area:</label>
+<select id="enquiry-type" name="enquiry-type" required="required"><option disabled="" selected="" value="">Select an interest area</option>
+<option value="volunteer">Volunteering</option>
+<option value="sponsor">Corporate Sponsorship</option>
+<option value="foster">Pet Fostering</option>
+</select><span aria-live="polite" class="field-error" id="enquiry-type-error"></span>
+</div>
+<div class="form-group">
+<label for="message">Message:</label>
+<textarea id="message" maxlength="1500" minlength="2" name="message" required="" rows="5"></textarea><span aria-live="polite" class="field-error" id="message-error"></span>
+</div><div class="form-group"><label for="enquiry-phone">Phone number (optional)</label><input id="enquiry-phone" name="phone" pattern="[+0-9 ()-]{7,20}" placeholder="+27 82 123 4567" type="tel"/></div><div class="form-group"><label for="support-hours">Estimated volunteer hours per month (optional)</label><input id="support-hours" max="160" min="0" name="hours" placeholder="e.g. 8" step="1" type="number"/><p class="form-note">For planning only; not a booking or confirmed commitment.</p></div><p aria-live="polite" class="inline-result" id="hours-preview"></p>
+<button class="button" type="submit">Submit Enquiry</button>
+<p class="form-note">Required fields must be completed before the enquiry can be submitted.</p>
+<div aria-live="polite" class="form-status" role="status"></div><p class="form-note">On Netlify, the form submits to Netlify Forms. On other hosts, your email app opens with a prefilled message; you must send it yourself. No message is silently sent.</p></form>
+</section>
+</main>
+<footer class="site-footer">
+<p>© 2026 Paws &amp; Claws Animal Rescue. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

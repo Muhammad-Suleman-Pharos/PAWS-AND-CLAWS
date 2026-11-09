@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Contact Paws &amp; Claws Animal Rescue branches in Johannesburg." name="description"/>
+<title>Paws &amp; Claws | Contact Us</title>
+<link href="css/style.css" rel="stylesheet"/>
+<meta content="#165f55" name="theme-color"/><meta content="index, follow" name="robots"/><script defer="" src="js/main.js"></script></head>
+<body><a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<div class="header-inner">
+<div class="brand">Paws &amp; Claws Animal Rescue</div>
+<button aria-controls="main-navigation" aria-expanded="false" class="menu-toggle" type="button">☰ Menu</button><nav aria-label="Main navigation" class="site-nav" id="main-navigation">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Us</a></li>
+<li><a href="services.html">Services &amp; Adoption</a></li>
+<li><a href="enquiry.html">Enquiry / Volunteer</a></li>
+<li><a aria-current="page" href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main-content">
+<section class="feature-section photo-split"><img alt="Animal companion photographed outdoors" class="animal-photo" data-fallback="images/gallery-dog.svg" height="700" loading="lazy" src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=1000&amp;q=80" width="1000"/><div><h2>We would love to hear from you</h2><p>Use the form below to reach out. Submissions are processed when the site is deployed to Netlify with Forms enabled.</p></div></section><h1 class="page-title">Contact Our Centers</h1>
+<div class="contact-grid">
+<section class="contact-card">
+<h3>Main Shelter Branch</h3>
+<p><strong>Address:</strong> 123 Rescue Way, North Branch, Johannesburg</p>
+<p><strong>Phone:</strong> +27 11 555 0199</p>
+</section>
+<section class="contact-card">
+<h3>Adoption Clinic Branch</h3>
+<p><strong>Address:</strong> 45 Care Avenue, South Branch, Johannesburg</p>
+<p><strong>Phone:</strong> +27 11 555 0200</p>
+</section>
+</div>
+<section aria-labelledby="contact-form-title" class="form-card">
+<h3 id="contact-form-title">Send Us a Message</h3>
+<form action="/thank-you.html" data-netlify="true" id="contact-form" method="POST" name="contact" novalidate="novalidate"><input name="form-name" type="hidden" value="contact"/>
+<div class="form-group">
+<label for="cname">Name:</label>
+<input autocomplete="name" id="cname" maxlength="80" minlength="2" name="cname" required="" type="text"/><span aria-live="polite" class="field-error" id="cname-error"></span>
+</div>
+<div class="form-group">
+<label for="cemail">Email:</label>
+<input autocomplete="email" id="cemail" minlength="2" name="cemail" required="" type="email"/><span aria-live="polite" class="field-error" id="cemail-error"></span>
+</div>
+<div class="form-group"><label for="contact-type">Message type</label><select id="contact-type" name="message-type" required=""><option disabled="" selected="" value="">Select a message type</option><option value="general">General question</option><option value="adoption">Adoption</option><option value="feedback">Feedback</option><option value="other">Other</option></select><span aria-live="polite" class="field-error" id="contact-type-error"></span></div><div class="form-group"><label for="contact-phone">Phone number (optional)</label><input id="contact-phone" name="phone" pattern="[+0-9 ()-]{7,20}" placeholder="+27 82 123 4567" type="tel"/></div><div class="form-group">
+<label for="cmessage">Message:</label>
+<textarea id="cmessage" maxlength="1500" minlength="2" name="cmessage" required="" rows="4"></textarea><span aria-live="polite" class="field-error" id="cmessage-error"></span>
+</div>
+<button class="button" type="submit">Send</button>
+<div aria-live="polite" class="form-status" role="status"></div><p class="form-note">On Netlify, the form submits to Netlify Forms. On other hosts, your email app opens with a prefilled message; you must send it yourself. No message is silently sent.</p></form>
+</section>
+</main>
+<footer class="site-footer">
+<p>© 2026 Paws &amp; Claws Animal Rescue. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

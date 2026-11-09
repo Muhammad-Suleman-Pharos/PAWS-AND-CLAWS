@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+<rect width="600" height="600" rx="60" fill="#eaf4f0"/>
+<circle cx="300" cy="300" r="210" fill="#ffffff"/>
+<text x="300" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="150" fill="#176b5b">🐾</text>
+<text x="300" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f4f43">RESCUE</text>
+<text x="300" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#5c6b72">SECOND CHANCES</text>
+</svg>
